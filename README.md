@@ -17,6 +17,17 @@ You can seamlessly work with forms and tables by simulating how a user would exp
 check that table at the row containing stored value "myId" and column "Status" contains "Paid"
 ```
 
+testRigor also supports visual testing out of the box, no additional configuration is necessary. You can compare any screen to a previous version (ex: post-release verification), save screenshots in test data as the point of comparison, compare individual elements on the screen etc.
+
+```
+compare screenshot to previous version
+```
+or
+
+```
+click by image from stored value "logo" with less than "10" % discrepancy
+```
+
 Full documentation is available [here](https://testrigor.com/docs/language/) for your convenince. As you can see, it is very declarative and utterly abstracted from the application's code. It might be handy in case you need to approve how things work with a customer, or involve other people to build tests for your application.
 
 > Full documentation for [testRigor](https://testrigor.com/docs/language/)
