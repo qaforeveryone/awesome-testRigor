@@ -1,8 +1,25 @@
 # Awesome testRigor [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
 
-> Full documentation for [testRigor](https://testrigor.com/docs/language/)
-
 testRigor is no-code end-to-end functional testing tool for web, desktop, and mobile testing. 
+
+When it comes to E2E testing, you may want to use a powerful [testRigor](https://testrigor.com/) automation solution. You can create tests covering an entire flow, including 2FA-based logins, email testing validation and manipulation, etc. - in a single test. You can also run these tests on web and mobile browsers with just a config change.
+
+In testRigor you write a specification of how your application is supposed to work instead of code. For example, changing a button to an a-tag won't break the test. A test can look like this:
+
+```
+login
+check that URL ends with "/home"
+```
+
+You can seamlessly work with forms and tables by simulating how a user would express the steps. Therefore it would, for instance, associate labels with inputs so that you can always refer to input by some visible text like a label (or text that looks like a label) or a placeholder. For the tables, it helps even more by enabling things such as:
+
+```
+check that table at the row containing stored value "myId" and column "Status" contains "Paid"
+```
+
+Full documentation is available [here](https://testrigor.com/docs/language/) for your convenince. As you can see, it is very declarative and utterly abstracted from the application's code. It might be handy in case you need to approve how things work with a customer, or involve other people to build tests for your application.
+
+> Full documentation for [testRigor](https://testrigor.com/docs/language/)
 
 # Become a testRigor pro
 - [What size company is testRigor best suited for?](https://testrigor.com/blog/faq-what-size-company-is-testrigor-suited-best-for/)
@@ -25,3 +42,6 @@ testRigor is no-code end-to-end functional testing tool for web, desktop, and mo
 # Blogs
 - [How to start with test automation right now](https://testrigor.com/blog/how-to-start-with-test-automation-right-now/)
 - [How to automate closed shadow DOM](https://testrigor.com/blog/how-to-automate-closed-shadow-dom-with-testrigor/)
+- [How to automate testing tables](https://testrigor.com/blog/how-to-automate-testing-tables/)
+- [How to generate, manage and use test data to achieve the best results](https://testrigor.com/blog/how-to-generate-manage-and-use-test-data-to-achieve-the-best-results/)
+
