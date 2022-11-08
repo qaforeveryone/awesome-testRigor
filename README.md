@@ -18,10 +18,10 @@ testRigor is no-code end-to-end functional testing tool for web, desktop, and mo
 - [How is testRigor different from Selenium?](https://testrigor.com/blog/faq-how-is-testrigor-different-from-selenium/)
 - [What problem does testRigor solve for its customers?](https://testrigor.com/blog/faq-what-problem-does-testrigor-solve-for-its-customers/)
 
-#Tutorials
+# Tutorials
 - [How to refer to elements](https://testrigor.com/blog/tips-tricks-how-to-refer-to-elements-in-testrigor/)
 - [How to achieve more test coverage](https://testrigor.com/blog/how-to-achieve-more-test-coverage-with-no-code-2-0/)
 
-#Blogs
+# Blogs
 - [How to start with test automation right now](https://testrigor.com/blog/how-to-start-with-test-automation-right-now/)
 - [How to automate closed shadow DOM](https://testrigor.com/blog/how-to-automate-closed-shadow-dom-with-testrigor/)
